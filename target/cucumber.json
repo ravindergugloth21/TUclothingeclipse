@@ -1,0 +1,531 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13516302900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify functionality of store locator with valid  postcode and town",
+        "description": "",
+        "id": "store-locator;verify-functionality-of-store-locator-with-valid--postcode-and-town;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 350813200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Home page",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3461992300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click TU store locator link",
+            "match": {
+              "location": "StoreLocator.i_click_TU_store_locator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2767574000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the \"IG7 5NP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IG7 5NP",
+                  "offset": 11
+                }
+              ],
+              "location": "StoreLocator.enter_the(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105423100,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[IG7 5NP]\u003e but was:\u003c[Store locator search results: IG7 5NP | Tu clothing]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.runner.ResultsPage.storeLocatorWithValidResults(ResultsPage.java:30)\r\n\tat StepDefinition.ResultPageStepDef.it_should_display_the_nearest_stores(ResultPageStepDef.java:38)\r\n\tat ✽.Then it should display the nearest stores(storelocator.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "it should display the nearest stores",
+            "match": {
+              "location": "ResultPageStepDef.it_should_display_the_nearest_stores()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@storelocator"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12543606000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify functionality of store locator with valid  postcode and town",
+        "description": "",
+        "id": "store-locator;verify-functionality-of-store-locator-with-valid--postcode-and-town;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8456100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Home page",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3375005800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click TU store locator link",
+            "match": {
+              "location": "StoreLocator.i_click_TU_store_locator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2746202300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 11
+                }
+              ],
+              "location": "StoreLocator.enter_the(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63433700,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[London]\u003e but was:\u003c[Store locator search results: London | Tu clothing]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.runner.ResultsPage.storeLocatorWithValidResults(ResultsPage.java:30)\r\n\tat StepDefinition.ResultPageStepDef.it_should_display_the_nearest_stores(ResultPageStepDef.java:38)\r\n\tat ✽.Then it should display the nearest stores(storelocator.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "it should display the nearest stores",
+            "match": {
+              "location": "ResultPageStepDef.it_should_display_the_nearest_stores()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@storelocator"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13030145300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify functionality of store locator with invalid postcode and town",
+        "description": "",
+        "id": "store-locator;verify-functionality-of-store-locator-with-invalid-postcode-and-town;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22404800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on Home page",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3394342000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click TU store locator link",
+            "match": {
+              "location": "StoreLocator.i_click_TU_store_locator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5374022500,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cStore locator [- find a store near you] | Tu clothing\u003e but was:\u003cStore locator [search results: AND DEF] | Tu clothing\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.runner.StoreLocator.storeLocatorWithInvalidDetails(StoreLocator.java:34)\r\n\tat StepDefinition.StoreLocator.enter(StoreLocator.java:26)\r\n\tat ✽.And enter \"AND DEF\"(storelocator.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "enter \"AND DEF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AND DEF",
+                  "offset": 7
+                }
+              ],
+              "location": "StoreLocator.enter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "it should display warning message",
+            "match": {
+              "location": "ResultPageStepDef.it_should_display_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@storelocator"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12778429100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify functionality of store locator with invalid postcode and town",
+        "description": "",
+        "id": "store-locator;verify-functionality-of-store-locator-with-invalid-postcode-and-town;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9585400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on Home page",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3489736100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click TU store locator link",
+            "match": {
+              "location": "StoreLocator.i_click_TU_store_locator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6125512100,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cStore locator [- find a store near you] | Tu clothing\u003e but was:\u003cStore locator [search results: NonLondon] | Tu clothing\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.runner.StoreLocator.storeLocatorWithInvalidDetails(StoreLocator.java:34)\r\n\tat StepDefinition.StoreLocator.enter(StoreLocator.java:26)\r\n\tat ✽.And enter \"NonLondon\"(storelocator.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "enter \"NonLondon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NonLondon",
+                  "offset": 7
+                }
+              ],
+              "location": "StoreLocator.enter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "it should display warning message",
+            "match": {
+              "location": "ResultPageStepDef.it_should_display_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@storelocator"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12933258900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verify functionality of store locator for click and collect",
+        "description": "",
+        "id": "store-locator;verify-functionality-of-store-locator-for-click-and-collect",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10879200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I am on Home page",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3714180700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click TU store locator Link",
+            "match": {
+              "location": "StoreLocator.i_click_TU_store_locator_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 376287000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "enter post code \"IG7 5NP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IG7 5NP",
+                  "offset": 17
+                }
+              ],
+              "location": "StoreLocator.enter_post_code(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2114097000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "select click and collect",
+            "match": {
+              "location": "StoreLocator.select_click_and_collect()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145353100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "it should display nearest stores with click and collect options",
+            "match": {
+              "location": "ResultPageStepDef.it_should_display_nearest_stores_with_click_and_collect_options()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14267353800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Verify functionality of store locator that stock clothing",
+        "description": "",
+        "id": "store-locator;verify-functionality-of-store-locator-that-stock-clothing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11486000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I am on Home page",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3493403000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click Tu store locator link",
+            "match": {
+              "location": "StoreLocator.i_click_Tu_store_locator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311641600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "enter post code \"IG2 6BX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IG2 6BX",
+                  "offset": 17
+                }
+              ],
+              "location": "StoreLocator.enter_post_code(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "select checkbox for only show stores that stock clothing and tick checkbox womens",
+            "match": {
+              "location": "StoreLocator.select_checkbox_for_only_show_stores_that_stock_clothing_and_tick_checkbox_womens()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7987200,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cStore locator [search results: IG7 5NP] | Tu clothing\u003e but was:\u003cStore locator [- find a store near you] | Tu clothing\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.runner.ResultsPage.storeThatStockClothes(ResultsPage.java:42)\r\n\tat StepDefinition.ResultPageStepDef.it_should_display_store_that_stock_clothing(ResultPageStepDef.java:53)\r\n\tat ✽.Then it should display store that stock clothing(storelocator.feature:39)\r\n",
+              "status": "failed"
+            },
+            "line": 39,
+            "name": "it should display store that stock clothing",
+            "match": {
+              "location": "ResultPageStepDef.it_should_display_store_that_stock_clothing()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Store Locator",
+    "description": "",
+    "id": "store-locator",
+    "keyword": "Feature",
+    "uri": "storelocator.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@storelocator"
+      }
+    ]
+  }
+]
